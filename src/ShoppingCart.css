@@ -1,0 +1,68 @@
+body{
+    background-color:#555 ;
+}
+
+/* ShoppingCart.css */
+
+/* Main container for the shopping cart */
+.shopping-cart {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for headings */
+  h2 {
+    margin-top: 20px;
+  }
+  
+  /* Remove default list styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Spacing between list items */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for item names */
+  .item-name {
+    font-weight: bold;
+  }
+  
+  /* Styling for item prices */
+  .item-price {
+    color: #555;
+  }
+  
+  /* Styling for add and remove buttons */
+  .add-button,
+  .remove-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  .add-button:hover,
+  .remove-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for quantity input */
+  .quantity-input {
+    width: 40px;
+    margin: 0 5px;
+  }
+  
+  /* Styling for subtotal, total items, and total */
+  .subtotal,
+  .total-items,
+  .total {
+    font-weight: bold;
+  }
+  
